@@ -9,7 +9,7 @@ SECRET_KEY = os.environ.get(
     'temporary-development-key-change-before-production'
 )
 
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
